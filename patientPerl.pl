@@ -45,7 +45,7 @@ Tkx::MainLoop();
 # Functions
 sub ubPortal{
     # Set Chrome as Default
-    my $url = 'https://shibboleth.buffalo.edu/idp/Authn/Stateless';
+    my $url = '<UBaddress>';
     open_browser($url)   
 }
 
@@ -54,7 +54,7 @@ sub cortextPWDRest{
     my $chrome_driver = Selenium::Remote::Driver->new;
     
     # Webpage Address   
-    my $url = 'https://admin.cortext.com/admin-center/#login';
+    my $url = '<cortexSite>';
     
     # TODO - get admin name/credentials
     my $admin = '<USERNAME>';
