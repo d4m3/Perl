@@ -9,9 +9,6 @@ use IO::File;
 use Tkx;
 use Selenium::Remote::Driver;
 
-#say "Hello World";
-#my $url = 'http://www.google.com/';
-#open_browser($url);
 
 # Create GUI window
 my $mw = Tkx::widget->new(".");
